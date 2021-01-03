@@ -26,4 +26,5 @@ dpi_mode=16
 #---> 1920x1200 60hz dpi_mode=69
 #---> 1920x1440 60hz dpi_mode=73
 
+# Enable Uart /dev/ttyAMA1, on pin 12,13,14,15
 dtoverlay=uart5,ctsrts
