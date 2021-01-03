@@ -1,13 +1,9 @@
-# Enable audio on GPIO for Pi400
-dtoverlay=audremap,pins_18_19
-dtparam=audio=on
-
 # disable i2c, pin use by h-sync & v-sync
 dtparam=i2c_arm=off
 
 #information https://www.raspberrypi.org/documentation/hardware/raspberrypi/dpi/README.md 
-gpio=2-8,12-17,20-24=a2
-dpi_output_format=0x13
+gpio=2-3,8-11,16-19,24-27=a2
+dpi_output_format=0x17
 enable_dpi_lcd=1
 display_default_lcd=1
 dpi_group=2
@@ -30,3 +26,4 @@ dpi_mode=16
 #---> 1920x1200 60hz dpi_mode=69
 #---> 1920x1440 60hz dpi_mode=73
 
+dtoverlay=uart5,ctsrts
