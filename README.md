@@ -6,7 +6,7 @@ VGA & Serial interface for Raspberry Pi 400
 
 ![](img/Pi400VT100.jpg)
 
-### DPI (Display parallel Interface)
+## DPI (Display parallel Interface)
 Like [VGA666](https://github.com/fenlogic/vga666), this pcb uses dpi interface (in mode 3 to free gpio 18 & 19)
 
 ![](img/dpi-packing.png)
@@ -43,7 +43,7 @@ only the necessary bits of the dpi are redirected to the 40-pin GPIO port, with 
     #---> 1920x1200 60hz  dpi_mode=69
     #---> 1920x1440 60hz  dpi_mode=73
 
-### Serial port
+## Serial port
 
     # Enable Uart /dev/ttyAMA1, on pin 12,13,14,15
     dtoverlay=uart5,ctsrts
