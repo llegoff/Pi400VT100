@@ -7,7 +7,7 @@ VGA & Serial interface for Raspberry Pi 400
 ![](img/Pi400VT100.jpg)
 
 ## DPI (Display parallel Interface)
-Like [VGA666](https://github.com/fenlogic/vga666), this pcb uses dpi interface (in mode 7 to free gpio 12 to 15)
+Like [VGA666](https://github.com/fenlogic/vga666), this pcb uses dpi interface (in mode 7, and 3x4bits to free gpio 12 to 15)
 
 ![](img/dpi-packing.png)
 
