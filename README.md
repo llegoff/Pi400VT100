@@ -57,6 +57,23 @@ only the necessary bits of the dpi are redirected to the 40-pin GPIO port, with 
 ## Installation
 copy content of [config-example.txt](img/config-example.txt?raw=true) to /boot/config.txt
 
+install Minicom
+
+    sudo apt update
+    sudo apt upgrade
+    sudo apt install minicom
+    
+run minicom with default config
+
+    minicom -D /dev/ttyAMA1
+
+run minicom 9600bps 8bit 
+
+    minicom -b 9600 -8 -D /dev/ttyAMA1
 
 ## Révision
 rev1
+  bad space between VGA and DB9 connectors
+  
+rev2
+  
