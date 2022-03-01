@@ -17,6 +17,9 @@ only the necessary bits of the dpi are redirected to the 40-pin GPIO port, with 
 
 /boot/config.txt
     
+    # replace dtoverlay=vc4-kms-v3d with
+    dtoverlay=vc4-fkms-v3d
+    
     # disable i2c, pin use by h-sync & v-sync
     dtparam=i2c_arm=off
     gpio=2-3,8-11,16-19,24-27=a2
