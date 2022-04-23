@@ -3,6 +3,7 @@
 # Pi400VT100
 VGA & Serial interface for Raspberry Pi 400
 
+![](img/Pi400VT100_2.png)
 
 ![](img/Pi400VT100.png)
 
